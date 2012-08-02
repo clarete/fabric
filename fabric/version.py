@@ -41,6 +41,8 @@ def get_version(form='short'):
       between a branch and the first final release within that branch.
     * ``all``: Returns all of the above, as a dict.
     """
+    return '1.4.3.1'
+
     # Setup
     versions = {}
     branch = "%s.%s" % (VERSION[0], VERSION[1])
